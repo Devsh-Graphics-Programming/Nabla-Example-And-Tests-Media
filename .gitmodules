@@ -1,3 +1,4 @@
 [submodule "Ditt-Reference-Scenes"]
 	path = Ditt-Reference-Scenes
 	url = git@github.com:Devsh-Graphics-Programming/Ditt-Reference-Scenes.git
+	branch = master

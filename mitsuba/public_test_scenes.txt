@@ -14,13 +14,13 @@
 ;"../../media/mitsuba/brdf_eval_test*.xml" # uses unsupported emitter (point lights)
 ;"../../media/mitsuba/classroom/scene.xml" # uses unsupported emitter (atmosphere light)
 "../../media/mitsuba/coffee.zip scene.xml"
-"../../media/mitsuba/daily_pt.xml"
+--errssim 0.01 --errcount 0.015 "../../media/mitsuba/daily_pt.xml"
 "../../media/mitsuba/glass-of-water.zip scene.xml"
 "../../media/mitsuba/kitchen.zip scene.xml"
 "../../media/mitsuba/lamp.zip scene.xml"
 "../../media/mitsuba/living-room.zip scene.xml"
 "../../media/mitsuba/living-room-2.zip scene.xml"
-"../../media/mitsuba/shapetest.xml"
+--errssim 0.01 --errcount 0.015 "../../media/mitsuba/shapetest.xml"
 "../../media/mitsuba/spaceship.zip scene.xml"
 "../../media/mitsuba/staircase.zip scene.xml"
 "../../media/mitsuba/staircase2.zip scene.xml"

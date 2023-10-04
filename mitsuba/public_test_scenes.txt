@@ -1,7 +1,7 @@
 ; Here is my Commented line that batch file will skip (started with semicolons)
 ; "relative/dir/from/bin/folder/to/scene.zip something.xml
 ; Public scenes
-; Per scene optional config
+; Per scene optional config 
 ; --abs             :       Changes the allowed error count to be a fixed number
 ; --rel             :       Changes the allowed error count to scale with resoultion
 ; --errcount x      :       Changes the allowed error count to a value. If 'abs', then its a integer, else if 'rel', then float

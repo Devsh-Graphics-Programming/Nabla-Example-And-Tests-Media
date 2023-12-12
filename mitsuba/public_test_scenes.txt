@@ -8,16 +8,16 @@
 ; --errpixel x      :       Changes the maximum allowed difference between pixels before the pixel is marked as an error
 ; --errssim x       :       Changes the SSIM test error threshold (for denoiser output) Value 0 to 1
 ; --epsilon x       :       Changes epsilon variable (close to zero). Default 0.00001
-"../../media/mitsuba/bathroom.zip scene.xml"
-"../../media/mitsuba/bathroom2.zip scene.xml"
-"../../media/mitsuba/bedroom.zip scene.xml"
+"../../media/mitsuba/bathroom.zip scene.xml" -DEFER_DENOISE
+"../../media/mitsuba/bathroom2.zip scene.xml" -DEFER_DENOISE
+"../../media/mitsuba/bedroom.zip scene.xml" -DEFER_DENOISE
 ;"../../media/mitsuba/brdf_eval_test*.xml" # uses unsupported emitter (point lights)
 ;"../../media/mitsuba/classroom/scene.xml" # uses unsupported emitter (atmosphere light)
-"../../media/mitsuba/coffee.zip scene.xml"
+"../../media/mitsuba/coffee.zip scene.xml" -DEFER_DENOISE
 --errssim 0.01 --errcount 0.015 "../../media/mitsuba/daily_pt.xml"
-"../../media/mitsuba/glass-of-water.zip scene.xml"
-"../../media/mitsuba/kitchen.zip scene.xml"
-"../../media/mitsuba/lamp.zip scene.xml"
+"../../media/mitsuba/glass-of-water.zip scene.xml" -DEFER_DENOISE
+"../../media/mitsuba/kitchen.zip scene.xml" -DEFER_DENOISE
+"../../media/mitsuba/lamp.zip scene.xml" -DEFER_DENOISE
 "../../media/mitsuba/living-room.zip scene.xml"
 "../../media/mitsuba/living-room-2.zip scene.xml"
 --errssim 0.01 --errcount 0.015 "../../media/mitsuba/shapetest.xml"

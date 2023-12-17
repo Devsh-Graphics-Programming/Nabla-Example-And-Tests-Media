@@ -25,4 +25,4 @@
 "../../media/mitsuba/staircase.zip scene.xml"
 "../../media/mitsuba/staircase2.zip scene.xml"
 --errcount 0.001 "../../media/mitsuba/ditt/render_720p.xml"
-;"../../media/mitsuba/ditt/render_cube.xml" # takes 60 min to render
+"../../media/mitsuba/ditt/render_cube.xml"

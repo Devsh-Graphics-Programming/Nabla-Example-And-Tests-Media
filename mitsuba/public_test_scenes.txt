@@ -25,5 +25,5 @@
 "../../media/mitsuba/staircase.zip scene.xml"
 "../../media/mitsuba/staircase2.zip scene.xml"
 --errcount 0.001 "../../media/mitsuba/ditt/render_720p.xml"
-"../../media/mitsuba/ditt/render_cube_rh.xml" --abs 434
-"../../media/mitsuba/ditt/render_cube_lh.xml" --abs 434
+--abs --errcount 434 "../../media/mitsuba/ditt/render_cube_rh.xml"
+--abs --errcount 434 "../../media/mitsuba/ditt/render_cube_lh.xml"

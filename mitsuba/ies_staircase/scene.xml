@@ -11,7 +11,7 @@
 			<matrix value="-0.435524 -4.21474e-008 -0.900177 6.91182 -8.15734e-015 1 -4.68212e-008 1.65163 0.900177 -2.03917e-008 -0.435523 2.55414 0 0 0 1"/>
 		</transform>
 		<sampler type="sobol" >
-			<integer name="sampleCount" value="64" />
+			<integer name="sampleCount" value="512" />
 		</sampler>
 		<film type="ldrfilm" >
 			<integer name="width" value="1024" />
@@ -297,7 +297,7 @@
 
 		<rgb name="radiance" value="20.0"/>
 		<emissionprofile type="measured">
-			<float name="normalizeEnergy" value="2.0"/>
+			<float name="normalizeEnergy" value="12.56637"/>
 			<string name="filename" value="test.ies"/>
 		</emissionprofile> 
 		</emitter>

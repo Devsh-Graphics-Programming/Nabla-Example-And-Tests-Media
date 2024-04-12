@@ -9,6 +9,7 @@
 ; --errssim x       :       Changes the SSIM test error threshold (for denoiser output) Value 0 to 1
 ; --epsilon x       :       Changes epsilon variable (close to zero). Default 0.00001
 "../../media/mitsuba/iso_ies/71_render_0_2.xml"
+"../../media/mitsuba/aniso_ies/71_render_0_2.xml"
 "../../media/mitsuba/bathroom.zip scene.xml" -DEFER_DENOISE
 "../../media/mitsuba/bathroom2.zip scene.xml" -DEFER_DENOISE
 "../../media/mitsuba/bedroom.zip scene.xml" -DEFER_DENOISE

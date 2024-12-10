@@ -1,1 +1,39 @@
-﻿<?xml version="1.0"?><scene version="0.5.0">	<integrator type="volpath" id="cameraintegrator">		<integer name="maxDepth" value="2" />	</integrator>	<sensor type="perspective" id="sensor1">		<float name="moveSpeed" value="-1000.000000" />		<float name="zoomSpeed" value="300.000000" />		<float name="fov" value="53.999998" />		<string name="fovAxis" value="y" />		<float name="shiftX" value="0.000000" />		<float name="shiftY" value="0.000000" />		<float name="nearClip" value="10.000000" />		<float name="farClip" value="5000.000000" />		<transform name="toWorld">			<scale x="-1" />			<lookat target="912.890015, 54.710022, 625.719971" origin="871.890015, 55.070030, 625.719971" up="0.008780, 0.999961, 0.000000" />		</transform>		<sampler type="hammersley">			<integer name="sampleCount" value="2048" />		</sampler>		<film type="hdrfilm">			<integer name="width" value="1920" />			<integer name="height" value="1080" />			<rfilter type="gaussian" />			<boolean name="banner" value="false" />			<string name="pixelFormat" value="rgb" />			<string name="outputFilePath" value="71_render_0_2.exr" />			<float name="bloomScale" value="0.235000" />			<float name="bloomIntensity" value="0.250000" />			<string name="tonemapper" value="NONE=AutoexposureOff" />			<float name="envmapRegularizationFactor" value="0.500000" />		</film>	</sensor>	<emitter id="ambientlight" type="constant">		<spectrum name="radiance" value="0.01" />	</emitter>	<include filename="71_scene_0_2.xml" /></scene>
+﻿<?xml version="1.0"?>
+<scene version="0.5.0">
+	<integrator type="volpath" id="cameraintegrator">
+		<integer name="maxDepth" value="2" />
+	</integrator>
+	<sensor type="perspective" id="sensor1">
+		<float name="moveSpeed" value="-1000.000000" />
+		<float name="zoomSpeed" value="300.000000" />
+		<float name="fov" value="53.999998" />
+		<string name="fovAxis" value="y" />
+		<float name="shiftX" value="0.000000" />
+		<float name="shiftY" value="0.000000" />
+		<float name="nearClip" value="10.000000" />
+		<float name="farClip" value="5000.000000" />
+		<transform name="toWorld">
+			<scale x="-1" />
+			<lookat target="912.890015, 54.710022, 625.719971" origin="871.890015, 55.070030, 625.719971" up="0.008780, 0.999961, 0.000000" />
+		</transform>
+		<sampler type="hammersley">
+			<integer name="sampleCount" value="2048" />
+		</sampler>
+		<film type="hdrfilm">
+			<integer name="width" value="1920" />
+			<integer name="height" value="1080" />
+			<rfilter type="gaussian" />
+			<boolean name="banner" value="false" />
+			<string name="pixelFormat" value="rgb" />
+			<string name="outputFilePath" value="72_render_0_2.exr" />
+			<float name="bloomScale" value="0.235000" />
+			<float name="bloomIntensity" value="0.250000" />
+			<string name="tonemapper" value="NONE=AutoexposureOff" />
+			<float name="envmapRegularizationFactor" value="0.500000" />
+		</film>
+	</sensor>
+	<emitter id="ambientlight" type="constant">
+		<spectrum name="radiance" value="0.01" />
+	</emitter>
+	<include filename="71_scene_0_2.xml" />
+</scene>

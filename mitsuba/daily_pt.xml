@@ -3,6 +3,7 @@
 
 <integrator type="path" id="cameraintegrator">
   <integer name="maxDepth" value="8" />
+  <boolean name="hideEnvironment" value="true"/>
 </integrator>
 
 <!--<sensor type="thinlens">-->

@@ -9,9 +9,10 @@
 		<float name="focusDistance" value="3"/>
 		<float name="fov" value="91.4928"/>
 		<string name="fovAxis" value="x"/>
+
+		<vector name="up" x="0" y="-0.351123" z="0.936329" />
 		<transform name="toWorld">
 			<scale x="-1"/>
-
 			<lookat target="0, 7.06367, 2.64888" origin="0, 8, 3" up="0, -0.351123, 0.936329"/>
 		</transform>
 

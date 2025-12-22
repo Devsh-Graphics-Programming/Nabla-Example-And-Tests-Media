@@ -4,7 +4,7 @@
 	<integrator type="direct"/>
 	<!--<sensor type="thinlens">-->
 
-	<sensor type="perspective">
+	<sensor type="thinlens">
 		<float name="apertureRadius" value="0.1"/>
 		<float name="focusDistance" value="3"/>
 		<float name="fov" value="91.4928"/>

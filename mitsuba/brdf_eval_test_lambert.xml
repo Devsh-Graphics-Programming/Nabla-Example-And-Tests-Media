@@ -11,8 +11,6 @@
 	</transform>
 	<float name="fov" value="60"/>
 	<string name="fovAxis" value="y"/>
-	<float name="focusDistance" value="3"/>
-	<float name="apertureRadius" value="0.1"/>
 	<sampler type="hammersley">
 		<integer name="sampleCount" value="8"/>
 	</sampler>
